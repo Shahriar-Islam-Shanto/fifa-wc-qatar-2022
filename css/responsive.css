@@ -55,6 +55,8 @@
         display: none;
     }
 
+    /* Footer section  */
+
     .footer-links a {
         display: grid;
         margin: auto;

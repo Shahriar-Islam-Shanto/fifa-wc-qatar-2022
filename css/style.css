@@ -162,7 +162,9 @@ footer {
 
 }
 
-/* Logo spin */
+/* footer section ends */
+
+/* Logo spin starts */
 
 .logo:hover {
     -webkit-animation: spin 5s infinite;
@@ -192,3 +194,5 @@ footer {
         transform: rotateY(-360deg);
     }
 }
+
+/* logo spin ends */
