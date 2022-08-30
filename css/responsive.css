@@ -1,0 +1,52 @@
+@media screen and (max-width: 576px) {
+    .banner {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        margin: 5%;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+        padding: 20px 38px 0px 38px;
+        border: none;
+
+    }
+
+    .banner h1 {
+        font-size: 22px;
+        margin: auto;
+    }
+
+    .banner img {
+        margin-top: 20px;
+    }
+}
+
+
+
+/* For Medium Device */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 40% 30%;
+        justify-content: space-around;
+        margin: 5%;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+        padding: auto;
+        border: none;
+
+    }
+
+    .banner h1 {
+        font-size: 40px;
+        margin: auto;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+}
